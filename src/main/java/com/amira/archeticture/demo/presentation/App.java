@@ -1,4 +1,4 @@
-package com.amira.archeticture.demo;
+package com.amira.archeticture.demo.presentation;
 
 /**
  * Hello world!
