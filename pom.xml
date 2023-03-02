@@ -13,5 +13,31 @@
   </properties>
 
   <dependencies>
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>1.18.26</version>
+      <scope>provided</scope>
+  </dependency>
+  
   </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>exec-maven-plugin</artifactId>
+        <version>3.0.0</version>
+        <executions>
+        <execution>
+        <phase>compile</phase>
+        <goals>
+        <goal>exec</goal>
+        </goals>
+        </execution>
+        </executions>
+        </plugin>
+        
+    </plugins>
+  </build>
 </project>
