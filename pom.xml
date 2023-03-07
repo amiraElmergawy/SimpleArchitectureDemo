@@ -7,7 +7,6 @@
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
   <name>simple-demo</name>
-  <url>maven</url>
 
   <properties>
     <maven.compiler.source>17</maven.compiler.source>
